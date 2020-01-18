@@ -1,4 +1,4 @@
 # StocksPortfolioAppKotlin
 
 # Overview of App: 
-htt
+https://user-images.githubusercontent.
