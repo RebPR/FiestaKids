@@ -9,4 +9,5 @@ https://user-images.githubusercontent.com/23514932/182270048-3e64eae0-e570-4326-
 - The project is even easier to maintain and scale
 - Future divided the directories feature wise. This helps when we try to scale the app and add more features.
 
-# The trade off
+# The trade offs you made and why
+- Decided to g
