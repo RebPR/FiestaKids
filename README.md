@@ -10,4 +10,4 @@ https://user-images.githubusercontent.com/23514932/182270048-3e64eae0-e570-4326-
 - Future divided the directories feature wise. This helps when we try to scale the app and add more features.
 
 # The trade offs you made and why
-- Decided to g
+- Decided to go with View modal instead of Jetpac
