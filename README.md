@@ -13,4 +13,4 @@ https://user-images.githubusercontent.com/23514932/182270048-3e64eae0-e570-4326-
 - Decided to go with View modal instead of Jetpack compose. This would increase the apk size. Reason being jetpack compose is still in Beta and making network calls did not seem as straight forward as I hoped.
 
 # How to run your project
--
+- Import project with version
