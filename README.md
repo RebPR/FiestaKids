@@ -14,4 +14,5 @@ https://user-images.githubusercontent.com/23514932/182270048-3e64eae0-e570-4326-
 
 # How to run your project
 - Import project with version control in android studio.
-   new->project from version control-> input url: https://github.com/nikitha2/StocksPortfolioAppKotlin.git -> click "clone". This should clone and build the pr
+   new->project from version control-> input url: https://github.com/nikitha2/StocksPortfolioAppKotlin.git -> click "clone". This should clone and build the project. 
+![Screen Shot 2022
