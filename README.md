@@ -21,4 +21,4 @@ https://user-images.githubusercontent.com/23514932/182270048-3e64eae0-e570-4326-
 ![Screen Shot 2022-08-01 at 6 20 33 PM](https://user-images.githubusercontent.com/23514932/182271461-0f42d8a3-ccb2-40b1-8a76-301fb4d28af2.png)
 
 
-# 3rd party l
+# 3rd party libraries or copied co
