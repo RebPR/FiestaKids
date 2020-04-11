@@ -22,4 +22,4 @@ https://user-images.githubusercontent.com/23514932/182270048-3e64eae0-e570-4326-
 
 
 # 3rd party libraries or copied code you may have used
-- Ret
+- Retrofit to make network calls
