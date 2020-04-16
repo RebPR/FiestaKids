@@ -1,2 +1,3 @@
 plugins {
-    id 'com.android.applic
+    id 'com.android.application'
+    id 'org.jetbrai
