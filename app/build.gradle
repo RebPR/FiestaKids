@@ -1,3 +1,6 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrai
+    id 'org.jetbrains.kotlin.android'
+}
+
+a
