@@ -11,4 +11,4 @@ android {
     }
 
     defaultConfig {
-        a
+        applicationId "com.example.stoc
