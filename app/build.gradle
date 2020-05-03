@@ -11,4 +11,4 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.stoc
+        applicationId "com.example.stocksportfolioappkotlin
