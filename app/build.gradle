@@ -11,4 +11,5 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.stocksportfolioappkotlin
+        applicationId "com.example.stocksportfolioappkotlin"
+        minSdk 21
