@@ -22,4 +22,5 @@ android {
 
     buildTypes {
         release {
-            minifyEna
+            minifyEnabled false
+            proguar
