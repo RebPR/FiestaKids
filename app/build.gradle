@@ -27,4 +27,4 @@ android {
         }
     }
     compileOptions {
- 
+        sourceCompatibility JavaVer
