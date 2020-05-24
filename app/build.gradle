@@ -37,4 +37,4 @@ android {
 
 dependencies {
 
-    implementati
+    implementation 'androidx.core:core-k
