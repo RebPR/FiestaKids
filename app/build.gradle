@@ -35,4 +35,6 @@ android {
     }
 }
 
-depend
+dependencies {
+
+    implementati
