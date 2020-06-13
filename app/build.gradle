@@ -46,4 +46,4 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //Retrofit
-    implementation "com.sq
+    implementation "com.squareup.okhttp3:okhttp:
