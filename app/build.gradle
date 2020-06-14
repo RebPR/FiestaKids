@@ -47,4 +47,4 @@ dependencies {
 
     //Retrofit
     implementation "com.squareup.okhttp3:okhttp:${okHttp_version}"
-    implementation "com.squ
+    implementation "com.squareup.okhttp3:logging-intercepto
