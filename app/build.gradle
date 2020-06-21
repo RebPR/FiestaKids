@@ -50,4 +50,4 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:${okHttp_version}"
     implementation "com.squareup.retrofit2:retrofit:${retrofit_version}"
     implementation "com.squareup.retrofit2:converter-gson:${retrofit_version}"
-    implementation "com.squar
+    implementation "com.squareup.retrofit2:converter-sca
