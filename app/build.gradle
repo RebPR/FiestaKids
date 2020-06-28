@@ -52,4 +52,5 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:${retrofit_version}"
     implementation "com.squareup.retrofit2:converter-scalars:${retrofit_version}"
     implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofit_version}"
-    implementation 'androidx.
+    implementation 'androidx.fragment:fragment-ktx:1.5.1'
+}
