@@ -9,4 +9,4 @@ import org.junit.runner.RunWith
 import org.junit.Assert.*
 
 /**
- * Instrumented 
+ * Instrumented test, which will execute on an And
