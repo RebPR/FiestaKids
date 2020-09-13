@@ -27,3 +27,21 @@ open class BaseActivity : AppCompatActivity() {
         replace: Boolean = true,
         backStack: Boolean = false
     ) {
+        val frag = (context as AppCompatActivity).supportFragmentManager.beginTransaction()
+        if (replace) {
+            frag.replace(fragmentPlaceHolder, fragment)
+        } else {
+            frag.add(fragmentPlaceHolder, fragment)
+        }
+        if (animate) {
+            frag.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+        }
+        if (!backStack) {
+            frag.addToBackStack(null)
+        }
+        frag.setCustomAnimations(
+            R.anim.kau_slide_in_left,
+            R.anim.kau_slide_out_right)
+            .commit()
+    }
+}
