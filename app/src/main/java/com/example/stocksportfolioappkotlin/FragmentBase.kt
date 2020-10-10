@@ -32,3 +32,8 @@ open class FragmentBase: Fragment() {
     fun showNoStocksText(noStocks:TextView,stocksFullListRV: RecyclerView,text:String?=null) {
         noStocks.visibility=View.VISIBLE
         stocksFullListRV.visibility=View.GONE
+        text?.let {
+            noStocks.text=text
+        }
+    }
+}
