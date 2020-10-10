@@ -7,4 +7,6 @@ class Constants {
         const val STOCKS_EMPTY_LIST="stocksEmptyListFragment"
         const val FRAGMENT_TO_OPEN = "screenToOpen"
 
-   
+    }
+
+}
