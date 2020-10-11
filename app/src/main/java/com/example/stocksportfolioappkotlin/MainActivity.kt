@@ -27,3 +27,9 @@ class MainActivity : BaseActivity()  {
         binding.stocksMalformedListButton.setOnClickListener {
             openActivity(STOCKS_MALFORMED_LIST)
         }
+
+        binding.stocksEmptyListButton.setOnClickListener {
+            openActivity(STOCKS_EMPTY_LIST)
+        }
+    }
+}
