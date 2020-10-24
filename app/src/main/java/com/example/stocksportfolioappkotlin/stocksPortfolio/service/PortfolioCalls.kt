@@ -1,3 +1,4 @@
 package com.example.stocksportfolioappkotlin.stocksPortfolio.service
 
-import com.example.stocksportfolioappkotlin.stocksPortfolio.model.responseModels.PortfolioRespo
+import com.example.stocksportfolioappkotlin.stocksPortfolio.model.responseModels.PortfolioResponseModel
+import retrofit2.C
