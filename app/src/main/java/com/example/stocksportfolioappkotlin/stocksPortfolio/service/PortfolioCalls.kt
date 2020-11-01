@@ -8,4 +8,5 @@ import retrofit2.http.GET
 
 interface PortfolioCalls {
 
-    @GET("/cash-homework/cash-stocks
+    @GET("/cash-homework/cash-stocks-api/portfolio.json")
+    fun g
