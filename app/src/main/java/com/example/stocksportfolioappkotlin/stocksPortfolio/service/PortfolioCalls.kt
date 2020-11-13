@@ -11,4 +11,4 @@ interface PortfolioCalls {
     @GET("/cash-homework/cash-stocks-api/portfolio.json")
     fun getPortfolioStocksFullList(): Call<PortfolioResponseModel>
 
-    @GE
+    @GET("/cash-homework/cash-stocks-ap
