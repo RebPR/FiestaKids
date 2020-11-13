@@ -9,4 +9,6 @@ import retrofit2.http.GET
 interface PortfolioCalls {
 
     @GET("/cash-homework/cash-stocks-api/portfolio.json")
-    fun getPortfolioStocksFullList(): Cal
+    fun getPortfolioStocksFullList(): Call<PortfolioResponseModel>
+
+    @GE
