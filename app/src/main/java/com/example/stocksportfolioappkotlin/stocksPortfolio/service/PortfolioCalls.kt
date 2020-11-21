@@ -14,4 +14,4 @@ interface PortfolioCalls {
     @GET("/cash-homework/cash-stocks-api/portfolio_malformed.json")
     fun getPortfolioStocksMalformedList(): Call<PortfolioResponseModel>
 
-    @GET("/ca
+    @GET("/cash-homework/cash-s
