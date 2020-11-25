@@ -21,4 +21,4 @@ interface PortfolioCalls {
 
     companion object {
 
-        var B
+        var BASE_URL = "https://storage.googleapis.com/
