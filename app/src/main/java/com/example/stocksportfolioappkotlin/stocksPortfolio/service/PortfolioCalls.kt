@@ -19,4 +19,6 @@ interface PortfolioCalls {
 
 
 
-    companion
+    companion object {
+
+        var B
