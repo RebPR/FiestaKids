@@ -23,4 +23,5 @@ interface PortfolioCalls {
 
         var BASE_URL = "https://storage.googleapis.com/"
         fun create() : PortfolioCalls {
-            val retrofit = Retrofit.B
+            val retrofit = Retrofit.Builder()
+                
