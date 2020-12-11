@@ -25,4 +25,5 @@ interface PortfolioCalls {
         fun create() : PortfolioCalls {
             val retrofit = Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .bas
+                .baseUrl(BASE_URL)
+               
