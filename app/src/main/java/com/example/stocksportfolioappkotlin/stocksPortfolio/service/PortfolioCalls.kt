@@ -27,4 +27,6 @@ interface PortfolioCalls {
                 .addConverterFactory(GsonConverterFactory.create())
                 .baseUrl(BASE_URL)
                 .build()
-            return retrofit.create(PortfolioCall
+            return retrofit.create(PortfolioCalls::class.java)
+
+        }
