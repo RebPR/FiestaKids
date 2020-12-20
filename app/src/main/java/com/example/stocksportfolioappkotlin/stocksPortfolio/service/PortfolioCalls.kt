@@ -30,3 +30,5 @@ interface PortfolioCalls {
             return retrofit.create(PortfolioCalls::class.java)
 
         }
+    }
+}
