@@ -53,3 +53,21 @@ class PortfolioRepoService: PortfolioRepoInterface {
             override fun onFailure(call: Call<PortfolioResponseModel>, t: Throwable) {
                 portfolioMalformedListResourceHolder.value=null
             }
+        })
+        return portfolioMalformedListResourceHolder
+    }
+
+    override fun getPortfolioStocksEmptyList(): MutableLiveData<PortfolioResponseModel?> {
+        portfolioCalls.getPortfolioStocksEmptyList().enqueue(object : Callback<PortfolioResponseModel> {
+            override fun onResponse(call: Call<PortfolioResponseModel>, response: Response<PortfolioResponseModel>) {
+                portfolioEmptyListResourceHolder.value= response.body()
+                Log.d(TAG,response.body().toString())
+            }
+
+            override fun onFailure(call: Call<PortfolioResponseModel>, t: Throwable) {
+                portfolioMalformedListResourceHolder.value=null
+            }
+        })
+        return portfolioEmptyListResourceHolder
+    }
+}
