@@ -6,4 +6,4 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import com.example.stocksportfolioappkotlin.FragmentBase
-import com.example.stocksportfolioap
+import com.example.stocksportfolioappkotlin.databinding.Fragm
