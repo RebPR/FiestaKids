@@ -8,4 +8,7 @@ import androidx.fragment.app.viewModels
 import com.example.stocksportfolioappkotlin.FragmentBase
 import com.example.stocksportfolioappkotlin.databinding.FragmentStocksPortfolioFullListBinding
 import com.example.stocksportfolioappkotlin.stocksPortfolio.model.responseModels.Stock
-import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.Port
+import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.PortfolioViewModel
+
+
+class Stocks
