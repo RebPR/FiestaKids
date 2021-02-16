@@ -11,4 +11,5 @@ import com.example.stocksportfolioappkotlin.stocksPortfolio.model.responseModels
 import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.PortfolioViewModel
 
 
-class StocksPortfolioEmptyListFragment : 
+class StocksPortfolioEmptyListFragment : FragmentBase() {
+    private lateinit
