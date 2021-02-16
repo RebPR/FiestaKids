@@ -12,4 +12,4 @@ import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.PortfolioV
 
 
 class StocksPortfolioEmptyListFragment : FragmentBase() {
-    private lateinit
+    private lateinit var binding: FragmentStocks
