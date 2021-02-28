@@ -15,4 +15,4 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
     private lateinit var binding: FragmentStocksPortfolioFullListBinding
     private val portfolioViewModel: PortfolioViewModel by viewModels()
 
-    
+    override fun onCreateView(
