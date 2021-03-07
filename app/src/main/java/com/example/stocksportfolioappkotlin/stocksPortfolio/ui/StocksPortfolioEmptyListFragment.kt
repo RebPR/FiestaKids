@@ -17,4 +17,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInst
+        savedInstanceState: Bundle?
+    ): Vi
