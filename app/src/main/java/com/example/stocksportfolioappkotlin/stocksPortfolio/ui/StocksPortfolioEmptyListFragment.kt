@@ -19,4 +19,4 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = Fragmen
+        binding = FragmentStocksPortfolioFul
