@@ -20,4 +20,7 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         savedInstanceState: Bundle?
     ): View {
         binding = FragmentStocksPortfolioFullListBinding.inflate(inflater, container, false)
-        r
+        return binding.root
+    }
+
+    
