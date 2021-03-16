@@ -23,4 +23,4 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         return binding.root
     }
 
-    override fun onViewCrea
+    override fun onViewCreated(view: View, s
