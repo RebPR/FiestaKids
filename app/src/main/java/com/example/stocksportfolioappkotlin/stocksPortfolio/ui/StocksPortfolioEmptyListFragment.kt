@@ -23,4 +23,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         return binding.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bund
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        portf
