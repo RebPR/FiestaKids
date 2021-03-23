@@ -24,4 +24,4 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        portf
+        portfolioViewModel.getPortfolioStocksEmptyLis
