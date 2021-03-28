@@ -24,4 +24,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        portfolioViewModel.getPortfolioStocksEmptyLis
+        portfolioViewModel.getPortfolioStocksEmptyList()
+        setUpObservers(
