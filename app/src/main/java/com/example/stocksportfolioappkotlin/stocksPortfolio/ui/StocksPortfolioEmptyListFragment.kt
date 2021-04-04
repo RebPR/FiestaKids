@@ -28,4 +28,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         setUpObservers()
     }
 
-    private fun setUp
+    private fun setUpObservers() {
+        portfo
