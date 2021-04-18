@@ -29,4 +29,4 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
     }
 
     private fun setUpObservers() {
-        portfolioViewModel.getPortfolioStocksEmptyList().obse
+        portfolioViewModel.getPortfolioStocksEmptyList().observe(viewLifecycleOwner){
