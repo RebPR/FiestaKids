@@ -30,4 +30,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
 
     private fun setUpObservers() {
         portfolioViewModel.getPortfolioStocksEmptyList().observe(viewLifecycleOwner){
-            it?.data?.let { stocks
+            it?.data?.let { stocks->
+                setupView
