@@ -32,4 +32,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         portfolioViewModel.getPortfolioStocksEmptyList().observe(viewLifecycleOwner){
             it?.data?.let { stocks->
                 setupViews(stocks)
-            }?: kotlin.r
+            }?: kotlin.run {
+                showNoStock
