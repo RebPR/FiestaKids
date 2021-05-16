@@ -33,4 +33,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
             it?.data?.let { stocks->
                 setupViews(stocks)
             }?: kotlin.run {
-                showNoStocksText(binding.noStocks,binding.stoc
+                showNoStocksText(binding.noStocks,binding.stocksFullListRV)
+            }
