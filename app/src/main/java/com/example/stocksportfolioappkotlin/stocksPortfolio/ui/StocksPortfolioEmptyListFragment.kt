@@ -35,3 +35,7 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
             }?: kotlin.run {
                 showNoStocksText(binding.noStocks,binding.stocksFullListRV)
             }
+        }
+    }
+
+    private fun set
