@@ -42,3 +42,5 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
         setupList(list,binding.noStocks,binding.stocksFullListRV)
     }
 
+    companion object {
+        fun
