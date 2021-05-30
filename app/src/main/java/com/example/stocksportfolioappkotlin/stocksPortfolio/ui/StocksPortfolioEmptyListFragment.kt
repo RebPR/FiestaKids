@@ -43,4 +43,4 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
     }
 
     companion object {
-        fun
+        fun newInstance(): StocksPortfol
