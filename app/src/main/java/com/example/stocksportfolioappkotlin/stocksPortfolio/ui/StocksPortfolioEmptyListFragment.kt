@@ -39,4 +39,6 @@ class StocksPortfolioEmptyListFragment : FragmentBase() {
     }
 
     private fun setupViews(list:List<Stock>?) {
-        setupList(list,binding.noStocks,b
+        setupList(list,binding.noStocks,binding.stocksFullListRV)
+    }
+
