@@ -1,3 +1,4 @@
 package com.example.stocksportfolioappkotlin.stocksPortfolio.ui
 
-import android.os.Bu
+import android.os.Bundle
+import android.view.Layo
