@@ -1,4 +1,5 @@
 package com.example.stocksportfolioappkotlin.stocksPortfolio.ui
 
 import android.os.Bundle
-import android.view.Layo
+import android.view.LayoutInflater
+import a
