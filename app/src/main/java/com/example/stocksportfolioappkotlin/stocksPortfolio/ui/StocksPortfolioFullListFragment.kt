@@ -11,4 +11,4 @@ import com.example.stocksportfolioappkotlin.stocksPortfolio.model.responseModels
 import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.PortfolioViewModel
 
 
-class S
+class StocksPortfolioFull
