@@ -13,4 +13,6 @@ import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.PortfolioV
 
 class StocksPortfolioFullListFragment : FragmentBase() {
     private lateinit var binding: FragmentStocksPortfolioFullListBinding
-    private val portfolioViewModel: PortfolioVie
+    private val portfolioViewModel: PortfolioViewModel by viewModels()
+
+    ov
