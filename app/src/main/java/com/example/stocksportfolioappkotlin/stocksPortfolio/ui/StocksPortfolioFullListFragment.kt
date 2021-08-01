@@ -15,4 +15,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
     private lateinit var binding: FragmentStocksPortfolioFullListBinding
     private val portfolioViewModel: PortfolioViewModel by viewModels()
 
-    override fun onCreateV
+    override fun onCreateView(
+        inflater: LayoutI
