@@ -16,4 +16,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
     private val portfolioViewModel: PortfolioViewModel by viewModels()
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGr
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceS
