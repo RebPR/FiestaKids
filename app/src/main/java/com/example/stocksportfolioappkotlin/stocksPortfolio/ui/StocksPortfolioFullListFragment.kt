@@ -17,4 +17,6 @@ class StocksPortfolioFullListFragment : FragmentBase() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceS
+        savedInstanceState: Bundle?
+    ): View {
+ 
