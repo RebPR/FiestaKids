@@ -19,4 +19,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentStocksPortfolioFullListBinding.inflate(inflater, container, 
+        binding = FragmentStocksPortfolioFullListBinding.inflate(inflater, container, false)
+        return binding.roo
