@@ -23,4 +23,4 @@ class StocksPortfolioFullListFragment : FragmentBase() {
         return binding.root
     }
 
-    override 
+    override fun onViewCreated(view: View, sa
