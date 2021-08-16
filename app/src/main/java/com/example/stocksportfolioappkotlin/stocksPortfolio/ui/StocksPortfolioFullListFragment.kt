@@ -23,4 +23,4 @@ class StocksPortfolioFullListFragment : FragmentBase() {
         return binding.root
     }
 
-    override fun onViewCreated(view: View, sa
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
