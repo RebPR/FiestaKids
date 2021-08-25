@@ -24,4 +24,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        portfolioViewModel.getPortfolioStocksFullLi
+        portfolioViewModel.getPortfolioStocksFullList()
+        setUp
