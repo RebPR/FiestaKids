@@ -28,4 +28,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
         setUpObservers()
     }
 
-    pr
+    private fun setUpObservers() {
+      
