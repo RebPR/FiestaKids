@@ -29,4 +29,4 @@ class StocksPortfolioFullListFragment : FragmentBase() {
     }
 
     private fun setUpObservers() {
-        portfolioViewModel.get
+        portfolioViewModel.getPortfolioStocksFullList().obs
