@@ -32,4 +32,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
         portfolioViewModel.getPortfolioStocksFullList().observe(viewLifecycleOwner){
             it?.data?.let { stocks->
                 setupViews(stocks)
- 
+            }?: kotlin.run {
+   
