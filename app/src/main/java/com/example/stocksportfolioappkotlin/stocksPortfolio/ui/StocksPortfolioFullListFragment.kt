@@ -38,4 +38,5 @@ class StocksPortfolioFullListFragment : FragmentBase() {
         }
     }
 
-    private fun setupViews(
+    private fun setupViews(list:List<Stock>?) {
+     
