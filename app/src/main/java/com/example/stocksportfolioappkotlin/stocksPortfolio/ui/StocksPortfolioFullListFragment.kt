@@ -35,3 +35,7 @@ class StocksPortfolioFullListFragment : FragmentBase() {
             }?: kotlin.run {
                 showNoStocksText(binding.noStocks,binding.stocksFullListRV)
             }
+        }
+    }
+
+    
