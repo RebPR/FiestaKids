@@ -39,4 +39,7 @@ class StocksPortfolioFullListFragment : FragmentBase() {
     }
 
     private fun setupViews(list:List<Stock>?) {
-        setupList(list,binding.noStocks,binding.
+        setupList(list,binding.noStocks,binding.stocksFullListRV)
+    }
+
+ 
