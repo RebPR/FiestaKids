@@ -43,4 +43,4 @@ class StocksPortfolioFullListFragment : FragmentBase() {
     }
 
     companion object {
-        fun newInstance(): StocksPortfolioFullListFragmen
+        fun newInstance(): StocksPortfolioFullListFragment = StocksPortfolioFullListFragment()
