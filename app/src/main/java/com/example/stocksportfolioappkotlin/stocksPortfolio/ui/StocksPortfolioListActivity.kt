@@ -1,1 +1,1 @@
-package com.example.stocksport
+package com.example.stocksportfolioappkotlin.stoc
