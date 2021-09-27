@@ -4,4 +4,5 @@ import android.os.Bundle
 import com.example.stocksportfolioappkotlin.BaseActivity
 import com.example.stocksportfolioappkotlin.Constants
 import com.example.stocksportfolioappkotlin.Constants.Companion.STOCKS_EMPTY_LIST
-import com.example.stocksportfolioappkotlin.Constants.Companion.S
+import com.example.stocksportfolioappkotlin.Constants.Companion.STOCKS_FULL_LIST
+import com.ex
