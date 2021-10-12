@@ -8,4 +8,4 @@ import com.example.stocksportfolioappkotlin.Constants.Companion.STOCKS_FULL_LIST
 import com.example.stocksportfolioappkotlin.Constants.Companion.STOCKS_MALFORMED_LIST
 import com.example.stocksportfolioappkotlin.databinding.ActivityStocksPortfolioListBinding
 
-class S
+class StocksPortfolioListActivity : BaseAct
