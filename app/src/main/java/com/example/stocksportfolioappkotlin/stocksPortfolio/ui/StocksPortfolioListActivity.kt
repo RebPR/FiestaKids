@@ -9,4 +9,4 @@ import com.example.stocksportfolioappkotlin.Constants.Companion.STOCKS_MALFORMED
 import com.example.stocksportfolioappkotlin.databinding.ActivityStocksPortfolioListBinding
 
 class StocksPortfolioListActivity : BaseActivity() {
-    private lateinit v
+    private lateinit var binding: ActivityStocksPort
