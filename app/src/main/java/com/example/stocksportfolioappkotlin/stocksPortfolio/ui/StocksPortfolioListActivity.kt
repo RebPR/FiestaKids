@@ -11,4 +11,4 @@ import com.example.stocksportfolioappkotlin.databinding.ActivityStocksPortfolioL
 class StocksPortfolioListActivity : BaseActivity() {
     private lateinit var binding: ActivityStocksPortfolioListBinding
 
-    over
+    override fun onCreate(savedInstanceSta
