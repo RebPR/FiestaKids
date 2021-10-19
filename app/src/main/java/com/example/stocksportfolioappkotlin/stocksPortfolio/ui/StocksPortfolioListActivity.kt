@@ -12,4 +12,5 @@ class StocksPortfolioListActivity : BaseActivity() {
     private lateinit var binding: ActivityStocksPortfolioListBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInsta
+        super.onCreate(savedInstanceState)
+        binding = Act
