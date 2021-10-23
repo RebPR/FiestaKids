@@ -14,4 +14,5 @@ class StocksPortfolioListActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityStocksPortfolioListBinding.inflate(layoutInflater)
-     
+        val view = binding.root
+  
