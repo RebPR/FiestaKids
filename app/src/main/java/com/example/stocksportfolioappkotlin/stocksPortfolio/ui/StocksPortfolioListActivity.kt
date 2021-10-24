@@ -19,4 +19,5 @@ class StocksPortfolioListActivity : BaseActivity() {
         setupViews()
     }
 
-   
+    private fun setupViews() {
+     
