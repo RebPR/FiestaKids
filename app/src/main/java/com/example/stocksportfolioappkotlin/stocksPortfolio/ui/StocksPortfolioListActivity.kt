@@ -15,4 +15,4 @@ class StocksPortfolioListActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityStocksPortfolioListBinding.inflate(layoutInflater)
         val view = binding.root
-  
+        setContentView(view)
