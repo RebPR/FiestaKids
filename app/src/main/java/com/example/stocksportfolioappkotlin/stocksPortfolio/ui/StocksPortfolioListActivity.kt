@@ -16,3 +16,7 @@ class StocksPortfolioListActivity : BaseActivity() {
         binding = ActivityStocksPortfolioListBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+        setupViews()
+    }
+
+   
