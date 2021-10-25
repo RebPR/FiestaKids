@@ -20,4 +20,5 @@ class StocksPortfolioListActivity : BaseActivity() {
     }
 
     private fun setupViews() {
-     
+        context=this
+   
