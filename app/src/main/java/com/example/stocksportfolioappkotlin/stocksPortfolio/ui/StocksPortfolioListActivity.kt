@@ -22,4 +22,4 @@ class StocksPortfolioListActivity : BaseActivity() {
     private fun setupViews() {
         context=this
         val extras= intent.extras
-      
+        actionBar?.setDisplayHomeAs
