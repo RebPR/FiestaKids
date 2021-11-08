@@ -24,4 +24,4 @@ class StocksPortfolioListActivity : BaseActivity() {
         val extras= intent.extras
         actionBar?.setDisplayHomeAsUpEnabled(true)
 
-        if(extras?.containsKey(Const
+        if(extras?.containsKey(Constants.FRAGMENT_TO_OPEN) == true){
