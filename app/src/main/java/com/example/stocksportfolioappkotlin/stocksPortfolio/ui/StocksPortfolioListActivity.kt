@@ -25,4 +25,4 @@ class StocksPortfolioListActivity : BaseActivity() {
         actionBar?.setDisplayHomeAsUpEnabled(true)
 
         if(extras?.containsKey(Constants.FRAGMENT_TO_OPEN) == true){
-            when(extras.
+            when(extras.get(Constants.FRAGMENT_TO_OPEN)){
