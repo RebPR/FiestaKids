@@ -26,3 +26,4 @@ class StocksPortfolioListActivity : BaseActivity() {
 
         if(extras?.containsKey(Constants.FRAGMENT_TO_OPEN) == true){
             when(extras.get(Constants.FRAGMENT_TO_OPEN)){
+                STOCKS_FU
