@@ -26,4 +26,4 @@ class StocksPortfolioListActivity : BaseActivity() {
 
         if(extras?.containsKey(Constants.FRAGMENT_TO_OPEN) == true){
             when(extras.get(Constants.FRAGMENT_TO_OPEN)){
-                STOCKS_FULL_LIST->{loadFragment(StocksPortfolioFul
+                STOCKS_FULL_LIST->{loadFragment(StocksPortfolioFullListFragment.newInstance(),binding
