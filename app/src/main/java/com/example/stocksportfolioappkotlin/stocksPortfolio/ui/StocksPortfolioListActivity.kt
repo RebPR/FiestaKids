@@ -28,4 +28,6 @@ class StocksPortfolioListActivity : BaseActivity() {
             when(extras.get(Constants.FRAGMENT_TO_OPEN)){
                 STOCKS_FULL_LIST->{loadFragment(StocksPortfolioFullListFragment.newInstance(),binding.fragmentContainer.id)}
                 STOCKS_MALFORMED_LIST->{loadFragment(StocksPortfolioMalformedListFragment.newInstance(),binding.fragmentContainer.id)}
-                STOCKS_EMPTY_LIST->{loadFragment(StocksPortfolioEmptyListFragment.newInstance(),binding.fragmentContainer
+                STOCKS_EMPTY_LIST->{loadFragment(StocksPortfolioEmptyListFragment.newInstance(),binding.fragmentContainer.id)}
+            }
+        }
