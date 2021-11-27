@@ -31,3 +31,5 @@ class StocksPortfolioListActivity : BaseActivity() {
                 STOCKS_EMPTY_LIST->{loadFragment(StocksPortfolioEmptyListFragment.newInstance(),binding.fragmentContainer.id)}
             }
         }
+    }
+}
