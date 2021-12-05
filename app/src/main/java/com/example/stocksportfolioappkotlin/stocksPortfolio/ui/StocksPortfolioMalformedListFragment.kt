@@ -3,4 +3,5 @@ package com.example.stocksportfolioappkotlin.stocksPortfolio.ui
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
-import and
+import android.view.ViewGroup
+import android
