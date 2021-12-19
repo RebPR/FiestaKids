@@ -8,4 +8,4 @@ import androidx.fragment.app.viewModels
 import com.example.stocksportfolioappkotlin.FragmentBase
 import com.example.stocksportfolioappkotlin.databinding.FragmentStocksPortfolioFullListBinding
 import com.example.stocksportfolioappkotlin.stocksPortfolio.model.responseModels.Stock
-impo
+import com.example.stocksportfolioap
