@@ -12,4 +12,4 @@ import com.example.stocksportfolioappkotlin.stocksPortfolio.viewmodel.PortfolioV
 
 
 class StocksPortfolioMalformedListFragment : FragmentBase() {
-    private lateinit var bi
+    private lateinit var binding: FragmentStocksPort
