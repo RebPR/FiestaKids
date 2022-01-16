@@ -15,4 +15,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     private lateinit var binding: FragmentStocksPortfolioFullListBinding
     private val portfolioViewModel: PortfolioViewModel by viewModels()
 
-    override
+    override fun onCreateView(
+        inf
