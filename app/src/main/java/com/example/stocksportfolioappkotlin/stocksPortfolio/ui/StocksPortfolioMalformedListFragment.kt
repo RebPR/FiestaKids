@@ -16,4 +16,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     private val portfolioViewModel: PortfolioViewModel by viewModels()
 
     override fun onCreateView(
-        inf
+        inflater: LayoutInflater, container
