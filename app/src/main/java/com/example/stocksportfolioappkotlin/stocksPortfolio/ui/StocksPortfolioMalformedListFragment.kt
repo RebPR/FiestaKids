@@ -17,4 +17,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInsta
+        savedInstanceState: Bundle?
+    ): Vie
