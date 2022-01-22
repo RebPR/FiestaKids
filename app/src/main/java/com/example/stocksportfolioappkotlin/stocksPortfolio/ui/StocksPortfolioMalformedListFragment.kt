@@ -19,4 +19,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentS
+        binding = FragmentStocksPortfolioFullList
