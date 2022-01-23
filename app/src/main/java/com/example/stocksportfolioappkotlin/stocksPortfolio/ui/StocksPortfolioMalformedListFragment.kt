@@ -19,4 +19,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentStocksPortfolioFullListBinding.inflate(inflater
+        binding = FragmentStocksPortfolioFullListBinding.inflate(inflater, container, false)
+      
