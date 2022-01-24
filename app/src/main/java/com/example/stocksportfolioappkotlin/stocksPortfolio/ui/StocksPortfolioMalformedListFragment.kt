@@ -23,4 +23,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         return binding.root
     }
 
-    override fun onViewCreated(v
+    override fun onViewCreated(view: View, savedInstanceState: Bu
