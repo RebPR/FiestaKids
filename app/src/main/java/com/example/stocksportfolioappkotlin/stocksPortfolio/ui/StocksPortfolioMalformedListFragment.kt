@@ -21,4 +21,6 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     ): View {
         binding = FragmentStocksPortfolioFullListBinding.inflate(inflater, container, false)
         return binding.root
-    
+    }
+
+    override fun onViewCreated(v
