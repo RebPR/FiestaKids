@@ -24,4 +24,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        portfolioViewModel.getPortfolioStocksMal
+        portfolioViewModel.getPortfolioStocksMalformedList()
+        
