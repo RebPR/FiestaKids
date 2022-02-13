@@ -28,4 +28,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         setUpObservers()
     }
 
-    private fun setUpObservers() 
+    private fun setUpObservers() {
+        portfolioViewModel.g
