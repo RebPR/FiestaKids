@@ -29,4 +29,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     }
 
     private fun setUpObservers() {
-        portfolioViewModel.g
+        portfolioViewModel.getPortfolioStocksMalformedList().
