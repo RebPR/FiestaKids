@@ -29,4 +29,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     }
 
     private fun setUpObservers() {
-        portfolioViewModel.getPortfolioStocksMalformedList().
+        portfolioViewModel.getPortfolioStocksMalformedList().observe(viewLifecycleOwner){
+     
