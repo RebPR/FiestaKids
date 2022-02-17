@@ -32,3 +32,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         portfolioViewModel.getPortfolioStocksMalformedList().observe(viewLifecycleOwner){
             it?.data?.let { stocks->
                 setupViews(stocks)
+            }?: kotlin.
