@@ -33,4 +33,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
             it?.data?.let { stocks->
                 setupViews(stocks)
             }?: kotlin.run {
-                showNo
+                showNoStocksText(binding.noStocks,
