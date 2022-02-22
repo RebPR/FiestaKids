@@ -36,4 +36,6 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
                 showNoStocksText(binding.noStocks,binding.stocksFullListRV,"Stocks input Malformed!")
             }
         }
-  
+    }
+
+    private fun 
