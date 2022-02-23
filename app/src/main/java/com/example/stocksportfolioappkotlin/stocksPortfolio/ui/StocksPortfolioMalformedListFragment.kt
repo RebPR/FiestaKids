@@ -38,4 +38,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         }
     }
 
-    private fun 
+    private fun setupViews(list:List<Stock>?) 
