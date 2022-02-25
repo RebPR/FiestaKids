@@ -39,4 +39,7 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     }
 
     private fun setupViews(list:List<Stock>?) {
-        setupList(list,binding.noStocks,binding.st
+        setupList(list,binding.noStocks,binding.stocksFullListRV)
+    }
+
+    companion ob
