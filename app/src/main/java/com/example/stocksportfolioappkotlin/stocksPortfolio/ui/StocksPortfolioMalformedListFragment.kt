@@ -42,4 +42,5 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
         setupList(list,binding.noStocks,binding.stocksFullListRV)
     }
 
-    companion ob
+    companion object {
+        fun newInstance
