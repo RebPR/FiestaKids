@@ -43,4 +43,4 @@ class StocksPortfolioMalformedListFragment : FragmentBase() {
     }
 
     companion object {
-        fun newInstance(): StocksPortfolioMalf
+        fun newInstance(): StocksPortfolioMalformedListFragment = Sto
