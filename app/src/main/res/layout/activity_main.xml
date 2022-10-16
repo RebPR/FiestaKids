@@ -6,4 +6,5 @@
     android:layout_height="wrap_content"
 
     android:gravity="center"
-    android:orientation="vert
+    android:orientation="vertical"
+    tools:context=".MainActi
