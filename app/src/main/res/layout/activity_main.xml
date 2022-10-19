@@ -10,4 +10,4 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id
+        android:id="@+id/stocksFullListButton"
