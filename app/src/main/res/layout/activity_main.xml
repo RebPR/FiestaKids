@@ -12,4 +12,5 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/stocksFullListButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_co
+        android:layout_height="wrap_content"
+        android:layout_margi
