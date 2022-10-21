@@ -11,4 +11,5 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/stocksFullListButton"
-        android:layo
+        android:layout_width="match_parent"
+      
