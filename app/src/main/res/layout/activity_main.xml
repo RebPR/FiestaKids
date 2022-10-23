@@ -15,4 +15,4 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_24"
         android:text="@string/stocks_full_list"
-        app:l
+        app:layout_constraintBottom_toTop
