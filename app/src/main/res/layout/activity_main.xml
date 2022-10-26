@@ -16,4 +16,5 @@
         android:layout_marginHorizontal="@dimen/dp_24"
         android:text="@string/stocks_full_list"
         app:layout_constraintBottom_toTopOf="@id/stocksMalformedListButton"
-        app:layout_constraintEnd_toEndOf="pare
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_con
