@@ -18,4 +18,4 @@
         app:layout_constraintBottom_toTopOf="@id/stocksMalformedListButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:lay
+        app:layout_constraintTop_toTopOf="pare
