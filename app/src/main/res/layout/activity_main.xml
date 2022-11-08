@@ -21,4 +21,4 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        a
+        android:id="@+id/stocksMalformed
