@@ -23,4 +23,5 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/stocksMalformedListButton"
         android:layout_width="match_parent"
-        android:layout_
+        android:layout_height="wrap_content"
+  
