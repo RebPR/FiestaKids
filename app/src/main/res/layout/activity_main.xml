@@ -26,4 +26,5 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/dp_24"
         android:text="@string/stocks_malformed_list"
-        app:layout_constraintBottom_toTopOf="@id/
+        app:layout_constraintBottom_toTopOf="@id/stocksEmptyListButton"
+   
