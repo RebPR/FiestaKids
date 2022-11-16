@@ -28,4 +28,4 @@
         android:text="@string/stocks_malformed_list"
         app:layout_constraintBottom_toTopOf="@id/stocksEmptyListButton"
         app:layout_constraintEnd_toEndOf="parent"
-   
+        app:layout_constraintS
