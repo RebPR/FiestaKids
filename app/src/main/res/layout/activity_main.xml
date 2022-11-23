@@ -34,4 +34,5 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/stocksEmptyListButton"
         android:layout_width="match_parent"
-        android:layout_height="w
+        android:layout_height="wrap_content"
+        
