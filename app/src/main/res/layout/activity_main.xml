@@ -35,4 +35,4 @@
         android:id="@+id/stocksEmptyListButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizo
+        android:layout_marginHorizontal="@dimen/dp_24"
