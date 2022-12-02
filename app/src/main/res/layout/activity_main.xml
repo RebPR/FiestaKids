@@ -38,4 +38,5 @@
         android:layout_marginHorizontal="@dimen/dp_24"
         android:text="@string/stocks_empty_list"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndO
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constra
