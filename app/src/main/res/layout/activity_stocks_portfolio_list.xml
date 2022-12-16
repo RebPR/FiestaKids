@@ -6,4 +6,5 @@
     tools:context=".stocksPortfolio.ui.StocksPortfolioListActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id
+        android:id="@+id/fragmentContainer"
+        android:l
