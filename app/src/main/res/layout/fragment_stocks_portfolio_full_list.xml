@@ -18,3 +18,5 @@
         android:gravity="center"
         android:text="@string/no_stocks_to_display"
         android:visibility="gone" />
+
+</FrameLayout>
