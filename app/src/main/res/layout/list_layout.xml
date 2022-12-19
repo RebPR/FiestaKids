@@ -22,3 +22,35 @@
         android:backgroundTint="@color/blue_90">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginHorizontal="@dimen/dp_24"
+            android:layout_marginVertical="@dimen/dp_8">
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                app:layout_constraintBottom_toTopOf="@id/current_price_cents"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/current_price_cents"
+                style="@style/TextAppearance.Material3.TitleMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:text="@string/current_price_cents"
+                app:layout_constraintBottom_toTopOf="@id/ticker"
+                app:layout_constraintEnd_toStartOf="@id/currency"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/name" />
+
+            <TextView
+                android:id="@+id/currency"
+                style="@style/TextAppearance.Material3.TitleMedium"
+                android:layout_width="wrap_content"
