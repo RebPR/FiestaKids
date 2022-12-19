@@ -54,3 +54,31 @@
                 android:id="@+id/currency"
                 style="@style/TextAppearance.Material3.TitleMedium"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_marginTop="@dimen/dp_4"
+                android:text="@string/currency"
+                app:layout_constraintBottom_toBottomOf="@id/current_price_cents"
+                app:layout_constraintStart_toEndOf="@id/current_price_cents" />
+
+            <TextView
+                android:id="@+id/ticker"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:text="@string/ticker"
+                app:layout_constraintBottom_toTopOf="@id/quantity"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/current_price_cents" />
+
+            <TextView
+                android:id="@+id/quantity"
+                style="@style/TextAppearance.Material3.BodyMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:text="#of stocks owned: 0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ticker" />
