@@ -1,0 +1,4 @@
+
+<resources>
+    <string name="app_name">StocksPortfolioAppKotlin</string>
+    <string name="stocks_full_list">STOCKS_FULL_LIST</string>
