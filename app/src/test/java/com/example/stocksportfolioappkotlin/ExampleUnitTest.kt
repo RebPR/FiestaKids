@@ -2,4 +2,7 @@ package com.example.stocksportfolioappkotlin
 
 import org.junit.Test
 
-import org.
+import org.junit.Assert.*
+
+/**
+ * Example
