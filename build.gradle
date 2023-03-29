@@ -1,4 +1,4 @@
 buildscript {
     ext {
         retrofit_version = "2.9.0"
-  
+        okHttp_version = "4.9
