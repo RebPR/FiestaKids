@@ -4,4 +4,4 @@ buildscript {
         okHttp_version = "4.9.3"
     }
 }
-// Top-level build file where you can add configuration options comm
+// Top-level build file where you can add configuration options common to all sub-projects/mod
